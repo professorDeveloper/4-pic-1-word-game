@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable-v23/button_click.xml" value="0.1905" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable-v24/back_style_result.xml" value="0.1905" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_answer.xml" value="0.1905" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_button.xml" value="0.1905" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_delete.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_image.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_item.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_level.xml" value="0.1905" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_menu.xml" value="0.1905" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_result_b.xml" value="0.1625" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_sound.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_title.xml" value="0.1905" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/back_style_variants.xml" value="0.1905" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/button_click.xml" value="0.1905" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/click_delete.xml" value="0.277" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/ic_banking_coin_svgrepo_com.xml" value="0.17" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.1625" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/ic_coin_svgrepo_com__2_.xml" value="0.17" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/icons.xml" value="0.17" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/linear_bg.xml" value="0.1905" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/switch_thumb_false.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/switch_thumb_true.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/thumb.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/toolbar_bg.xml" value="0.1755" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/drawable/track.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/layout/activity_main.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/layout/delete_dialog.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/layout/exit_dialog.xml" value="0.2988679352838745" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/layout/game_screen.xml" value="0.2988679352838745" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/layout/info_dialog.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/layout/main_screen.xml" value="0.2988679352838745" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/layout/result_dialog.xml" value="0.2264151024877837" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/layout/warning_dialog.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/4pic1Word/app/src/main/res/layout/win_dialog.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

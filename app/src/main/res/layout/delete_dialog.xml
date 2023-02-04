@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_200sdp"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:gravity="center_horizontal"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:background="@drawable/back_style_result"
+    android:orientation="vertical">
+
+    <FrameLayout
+
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/remove_extra"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/_36sdp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:layout_height="@dimen/_36sdp"
+            android:padding="@dimen/_5sdp"
+            android:layout_gravity="end|center"
+            android:clickable="true"
+            android:layout_marginEnd="@dimen/_14sdp"
+            android:src="@drawable/ic_baseline_cancel_24" />
+
+    </FrameLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_16sdp"
+            android:gravity="center"
+            android:text="@string/remove_coins"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/yes"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/back_style_button"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/yes"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            app:layout_constraintVertical_bias="0" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

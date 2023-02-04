@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginHorizontal="40dp"
+
+    android:layout_height="@dimen/_255sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    tools:context=".screen.GameScreen"
+    tools:ignore="MissingDefaultResource">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:src="@drawable/coin"
+        app:layout_constraintBottom_toBottomOf="@id/coinsCount"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/coinsCount"
+        app:layout_constraintTop_toTopOf="@id/coinsCount" />
+
+    <TextView
+
+        android:id="@+id/coinsCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:text="420"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+
+
+
+        android:id="@+id/levelComplete"
+        app:layout_constraintBottom_toTopOf="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/coinsCount">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level_complete"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/continueGame"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/levelComplete">
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/answers"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_32sdp"
+            android:background="@drawable/back_style_answer"
+            android:clickable="false"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/continueGame"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/back_style_button"
+        android:clickable="true"
+        android:layout_marginBottom="30dp"
+
+        android:text="@string/continuet"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/answer"
+        app:layout_goneMarginTop="@dimen/_20sdp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

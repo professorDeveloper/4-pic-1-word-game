@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="transparent">
+
+    <item android:drawable="@drawable/icon"  android:gravity="center" /> <!-- Resource ID #0x7f07015e -->
+</layer-list>

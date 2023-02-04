@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">Fourpicturesonewords</string>
+    <string name="remove_extra">Remove Extra</string>
+    <string name="remove_coins">You want to remove extra letters for 50 coins</string>
+    <string name="yes">Yes</string>
+    <string name="episode">EPISODE</string>
+    <string name="dialog_quit_game">Would you to like leave ?</string>
+
+    <string name="info">Info</string>
+    <string name="ok">OK</string>
+    <string name="language">Language</string>
+    <string name="uzbek">Uzbek</string>
+    <string name="russian">Russian</string>
+    <string name="english">English</string>
+    <string name="game_name">4 Pics\n1 Word</string>
+    <string name="play">Play</string>
+    <string name="exit">exit</string>
+    <string name="level_complete">Level Complete</string>
+    <string name="continuet">Continue</string>
+    <string name="settings">SETTINGS</string>
+    <string name="music">Music</string>
+    <string name="sound">Sound</string>
+    <string name="select_language">SELECT LANGUAGE</string>
+    <string name="dont_have">You don\'t have enough coins</string>
+    <string name="go_to_menu">Go to menu</string>
+    <string name="info_text" translatable="false">This is 4 pictures 1 word\n\nCreated by Qosimov Shahrizod\n\n @is_unity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

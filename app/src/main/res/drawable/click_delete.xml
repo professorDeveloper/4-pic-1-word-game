@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:width="35dp" android:height="35dp"  android:drawable="@drawable/ic_baseline_delete_forever_24"  />
+        </layer-list>
+    </item>
+    <item>
+
+        <layer-list>
+            <item  android:drawable="@drawable/ic_baseline_delete_forever_24" />
+        </layer-list>
+    </item>
+</selector>
